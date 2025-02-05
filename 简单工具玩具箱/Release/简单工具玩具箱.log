@@ -1,0 +1,82 @@
+﻿  FileName.cpp
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\bolin.h(51,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“FileName.cpp”)
+  
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\bolin.h(104,13): error C2664: “void saveimage(LPCTSTR,IMAGE *)”: 无法将参数 1 从“const _Elem *”转换为“LPCTSTR”
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\bolin.h(104,13): error C2664:         with
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\bolin.h(104,13): error C2664:         [
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\bolin.h(104,13): error C2664:             _Elem=char
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\bolin.h(104,13): error C2664:         ]
+  (编译源文件“FileName.cpp”)
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\bolin.h(104,38):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\vs\VC\Auxiliary\VS\include\easyx.h(260,6):
+      参见“saveimage”的声明
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\bolin.h(104,13):
+      尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+  
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\jiami.h(54,2): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const _Elem *”转换为“LPCWSTR”
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\jiami.h(54,2): error C2664:         with
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\jiami.h(54,2): error C2664:         [
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\jiami.h(54,2): error C2664:             _Elem=char
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\jiami.h(54,2): error C2664:         ]
+  (编译源文件“FileName.cpp”)
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\jiami.h(54,27):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winuser.h(9222,1):
+      参见“MessageBoxW”的声明
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\jiami.h(54,2):
+      尝试匹配参数列表“(int, const _Elem *, const char [5], long)”时
+          with
+          [
+              _Elem=char
+          ]
+  
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\ziyuan.h(31,12): error C2664: “int stricmp(const char *,const char *)”: 无法将参数 2 从“WCHAR [260]”转换为“const char *”
+  (编译源文件“FileName.cpp”)
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\ziyuan.h(31,41):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h(545,26):
+      参见“stricmp”的声明
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\ziyuan.h(31,12):
+      尝试匹配参数列表“(const _Elem *, WCHAR [260])”时
+          with
+          [
+              _Elem=char
+          ]
+  
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\ziyuan.h(101,7): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [13]”转换为“LPCWSTR”
+  (编译源文件“FileName.cpp”)
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\ziyuan.h(101,24):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winuser.h(9222,1):
+      参见“MessageBoxW”的声明
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\ziyuan.h(101,7):
+      尝试匹配参数列表“(int, const char [13], const _Elem *, long)”时
+          with
+          [
+              _Elem=char
+          ]
+  
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\FileName.cpp(23,9): error C1083: 无法打开包括文件: “glut.h”: No such file or directory
+  releaseHelper.cpp
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\releaseHelper.cpp(30,19): error C2664: “HRSRC FindResourceW(HMODULE,LPCWSTR,LPCWSTR)”: 无法将参数 3 从“const char *”转换为“LPCWSTR”
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\releaseHelper.cpp(30,81):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\libloaderapi.h(579,1):
+      参见“FindResourceW”的声明
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\releaseHelper.cpp(30,19):
+      尝试匹配参数列表“(HMODULE, LPWSTR, const char *)”时
+  
+A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\releaseHelper.cpp(42,20): error C2664: “HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“char [1024]”转换为“LPCWSTR”
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\releaseHelper.cpp(42,31):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\fileapi.h(92,1):
+      参见“CreateFileW”的声明
+      A:\果果1\c++\c++总\c++\!简单工具玩具箱\简单工具玩具箱\releaseHelper.cpp(42,20):
+      尝试匹配参数列表“(char [1024], long, int, int, int, int, int)”时
+  
